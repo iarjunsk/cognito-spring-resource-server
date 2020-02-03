@@ -1,5 +1,5 @@
 ### Spring Resource Server Integrated with Cognito Identity Provider (OAuth2)
-![Resource Server ](/fk-latest.png)
+![Resource Server ](/resource-server.png)
 
 #### Features:
       1. Authorization using Cognito Groups.
