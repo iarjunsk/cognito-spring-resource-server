@@ -1,0 +1,11 @@
+server:
+  port: 8081
+security:
+  oauth2:
+    resource:
+      userInfoUri: https://<cognito>.auth.eu-west-1.amazoncognito.com/oauth2/userInfo
+      tokenInfoUri: https://<cognito>.auth.eu-west-1.amazoncognito.com/oauth2/token
+      jwk:
+        key-set-uri: https://cognito-idp.<region>.amazonaws.com/<user-pool-id>/.well-known/jwks.json
+    client:
+      clientId: <client-id>
